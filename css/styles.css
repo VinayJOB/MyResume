@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(169, 209, 192);
+    margin: 4% 20%;
+    }
+.resume{
+    margin: 4% 10%;
+    background-color: cornflowerblue;
+    border: double;
+}
+
+hr{
+    border-color: rgba(129, 126, 126, 0.623);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 7%;
+}
+h1{
+    color: #106d8a;
+}
+h3{
+    color: #0a5d63;
+}
