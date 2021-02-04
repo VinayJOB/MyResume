@@ -8,6 +8,10 @@ body {
     background-color: rgb(234, 235, 233);
     padding-bottom: 4px;
 }
+.no_line{
+    text-decoration: none;
+    color: black;
+}
 
 h1{
     color: #106d8a;
@@ -29,6 +33,9 @@ strong{
 .detail{
     text-align: left;
 }
+
+/* id section */
+
 .myphoto{
     width: 150px;
     text-align: right;
@@ -37,6 +44,9 @@ strong{
     margin-bottom: 3%;
     padding-top: 3%;
     line-height: .9rem;
+}
+.info:hover{
+    color:rgb(82, 168, 238);
 }
 
 /* academic features */
