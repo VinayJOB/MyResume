@@ -1,23 +1,64 @@
 body {
-    background-color: rgb(169, 209, 192);
-    margin: 4% 20%;
+    margin: 10% 20%;
+    border: solid;
+    line-height: 1.7rem;
+    font-weight: 600;
     }
 .resume{
-    margin: 4% 10%;
-    background-color: cornflowerblue;
-    border: double;
+    background-color: rgb(234, 235, 233);
+    padding-bottom: 4px;
 }
 
-hr{
-    border-color: rgba(129, 126, 126, 0.623);
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 7px;
-    width: 7%;
-}
 h1{
     color: #106d8a;
 }
+h2{
+    font-size: 1.5rem;
+}
 h3{
-    color: #0a5d63;
+    /* color: #0a5d63; */
+    text-align: center;
+    background-color: rgb(197, 194, 194);
+    font-size: 1.3rem;
+    padding-bottom: 4px;
+}
+strong{
+    font-weight: 750;
+}
+
+.detail{
+    text-align: left;
+}
+.myphoto{
+    width: 150px;
+    text-align: right;
+}
+.info{
+    margin-bottom: 3%;
+    padding-top: 3%;
+    line-height: .9rem;
+}
+
+/* academic features */
+.academic{
+    padding-left: 13px;
+    line-height: .9rem;
+
+}
+.project1{
+    color: rgb(26, 201, 231);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.project1:hover{
+    color: rgb(10, 138, 177);
+}
+
+.project2{
+    color: rgb(31, 231, 205);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.project2:hover{
+    color: rgb(26, 120, 241);
 }
